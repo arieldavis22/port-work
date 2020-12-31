@@ -1,0 +1,7 @@
+.test {
+    display: flex;
+    justify-content: space-between;
+}
+.option:hover {
+    cursor: pointer;
+}

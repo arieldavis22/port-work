@@ -1,0 +1,11 @@
+.bio-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.profile-img {
+    height: 200px;
+    width: 200px;
+    margin-right: 12px;
+}
