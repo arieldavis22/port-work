@@ -2,10 +2,16 @@
     display: flex;
     justify-content: space-between;
     margin-top: 12px;
+    height: 200px;
+    padding: 0px 200px 0px 200px
 }
 
-.profile-img {
-    height: 200px;
-    width: 200px;
+.bio-container .profile-img {
+    height: auto;
+    width: 20%;
     margin-right: 12px;
+}
+
+.bio-container .bio-desc {
+    font-size: 1.4em;
 }
