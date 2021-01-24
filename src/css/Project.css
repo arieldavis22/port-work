@@ -1,6 +1,8 @@
 .proj-container {
     margin-top: 20px;
-    /* border: 5px solid black; */
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 .proj-container .proj-list {
