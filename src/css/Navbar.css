@@ -1,7 +1,15 @@
-.test {
+.navbar-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.option {
+    width: 20%;
 }
 .option:hover {
     cursor: pointer;
+    background-color: gray;
 }

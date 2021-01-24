@@ -7,13 +7,15 @@ import Socials from './containers/Socials';
 
 function App() {
   return (
-    <div className={"content-container"}>
+    <>
       <Navbar/>
+    <div className={"content-container"}>
       <Biography/>
       <Projects/>
       <Socials/>
       <Contact/>
     </div>
+    </>
   );
 }
 

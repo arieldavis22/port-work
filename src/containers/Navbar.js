@@ -11,7 +11,7 @@ class Navbar extends Component {
     }
     render() { 
         return (  
-            <div className={"test"}>
+            <div className={"navbar-container"}>
             <div className={"option"} onClick={() => this.handleClick("bio")}>
                  Biography
              </div>

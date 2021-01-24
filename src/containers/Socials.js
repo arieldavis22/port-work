@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faGithub } from '@fortawesome/f?ee-solid-svg-icons'
+import { GoMarkGithub } from "react-icons/go";
+import { IoLogoLinkedin } from "react-icons/io";
+import { IconContext } from "react-icons";
+import '../css/Socials.css'
 class Socials extends Component {
     constructor(props) {
         super(props);
@@ -8,10 +10,17 @@ class Socials extends Component {
     }
     render() { 
         return (  
-            <div>
-                Socials
-                <FontAwesomeIcon icon="coffee" />
-            </div>
+            <>
+            <IconContext.Provider value={{ size: "3em"}}>
+                    <div className="social-container">
+                        Socials
+                        <div className="icons">
+                            <GoMarkGithub/>
+                            <IoLogoLinkedin/>
+                        </div>
+                    </div>
+            </IconContext.Provider>
+            </>
         );
     }
 }
