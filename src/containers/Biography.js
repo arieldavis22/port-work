@@ -10,6 +10,9 @@ class Biography extends Component {
     render() { 
         return (  
             <>
+            <div className="triangle">
+
+            </div>
             <Fade top duration={3000}>
                 <div className={'bio-container'}>
                     <img src={pic}  alt="error" className={"profile-img"}/>

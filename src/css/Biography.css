@@ -1,7 +1,7 @@
 .bio-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 12px;
+    /* margin-top: 12px; */
     height: 200px;
     padding: 200px;
 }
@@ -15,3 +15,11 @@
 .bio-container .bio-desc {
     font-size: 1.4em;
 }
+
+.triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 700px solid rgb(194, 193, 193);
+    border-right: 700px solid transparent;
+  }

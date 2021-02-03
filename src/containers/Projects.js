@@ -27,7 +27,7 @@ class Projects extends Component {
     ];
         return (  
             <>
-            <Fade top duration={2000}>
+            <Fade duration={2000}>
                 <div className="proj-container">
                     Project Cards
                     <div className="proj-list">
