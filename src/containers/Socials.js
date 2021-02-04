@@ -12,6 +12,7 @@ class Socials extends Component {
     render() { 
         return (  
             <>
+            <div className="social-triangle"></div>
             <Fade top>
                 <IconContext.Provider value={{ size: "3em"}}>
                         <div className="social-container">

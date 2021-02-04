@@ -1,10 +1,17 @@
 .social-container {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     /* border: 5px solid black; */
     text-align: center;
     height: 500px;
 }
-
+.social-triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 0;
+    border-top: 700px solid rgb(194, 193, 193);
+    border-left: 700px solid transparent;
+}
 .social-containers .icons {
 
 }
